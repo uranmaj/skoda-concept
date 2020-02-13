@@ -1,0 +1,81 @@
+@import "variables";
+
+body, html {
+    margin: 0;
+    font-family: $secondary-font-fam;
+}
+
+.logo {
+    height: 13vh;
+    position: fixed;
+    overflow: hidden;
+    padding-left: 1vw;
+    padding-top: 2vh;
+}
+
+.navbar {
+    position: fixed;
+    overflow: hidden;
+    padding-left: 1.5vw;
+    padding-top: 17vh;
+    display: flex;
+    text-align: right;
+    flex-direction: column;
+    a {
+        text-decoration: none;
+        text-align: left;
+        margin-bottom: 2vh;
+        font-size: 15px;
+        font-weight: 500;
+        color: $skoda-white;
+        font-family: $secondary-font-fam;
+      }
+      
+      a:hover {
+        background: $skoda-white;
+        color: black;
+        font-weight: 800;
+      }
+}
+
+.landing-div {
+
+    background-image: url(../images/octavia2.jpg);  
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+   
+    h1 {
+        position: absolute;
+        right:1vw;
+        bottom:0vh;
+        padding: 0;
+        margin:0;
+        font-size: 14vh;
+        line-height: 10vh;
+        font-weight:900 ;
+        text-align: right;
+    }
+
+}
+
+.section {
+    background-color: black;
+    height: 100vh;
+
+    p {
+        margin: 0;
+        color: $skoda-white;
+        padding: 150px;
+    }
+}
+
+.green-div {
+    height: 50vh;
+    background-color: $skoda-color;
+}
+
+.white-div {
+    height: 50vh;
+    background-color: $skoda-white;
+}

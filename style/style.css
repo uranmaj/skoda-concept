@@ -1,0 +1,84 @@
+body, html {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.logo {
+  height: 13vh;
+  position: fixed;
+  overflow: hidden;
+  padding-left: 1vw;
+  padding-top: 2vh;
+}
+
+.navbar {
+  position: fixed;
+  overflow: hidden;
+  padding-left: 1.5vw;
+  padding-top: 17vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: right;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.navbar a {
+  text-decoration: none;
+  text-align: left;
+  margin-bottom: 2vh;
+  font-size: 15px;
+  font-weight: 500;
+  color: #d8d8d8;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar a:hover {
+  background: #d8d8d8;
+  color: black;
+  font-weight: 800;
+}
+
+.landing-div {
+  background-image: url(../images/octavia2.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.landing-div h1 {
+  position: absolute;
+  right: 1vw;
+  bottom: 0vh;
+  padding: 0;
+  margin: 0;
+  font-size: 14vh;
+  line-height: 10vh;
+  font-weight: 900;
+  text-align: right;
+}
+
+.section {
+  background-color: black;
+  height: 100vh;
+}
+
+.section p {
+  margin: 0;
+  color: #d8d8d8;
+  padding: 150px;
+}
+
+.green-div {
+  height: 50vh;
+  background-color: #7bb869;
+}
+
+.white-div {
+  height: 50vh;
+  background-color: #d8d8d8;
+}
+/*# sourceMappingURL=style.css.map */
