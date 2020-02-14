@@ -9,6 +9,7 @@ body, html {
   overflow: hidden;
   padding-left: 1vw;
   padding-top: 2vh;
+  z-index: 11;
 }
 
 .navbar {
@@ -24,6 +25,7 @@ body, html {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  z-index: 11;
 }
 
 .navbar a {
@@ -43,7 +45,7 @@ body, html {
 }
 
 .landing-div {
-  background-image: url(../images/octavia2.jpg);
+  background-image: url(../images/twoSkodaNature.jpg);
   height: 100vh;
   background-size: cover;
   background-position: center;
@@ -63,7 +65,7 @@ body, html {
 
 .section {
   background-color: black;
-  height: 100vh;
+  height: auto;
 }
 
 .section p {
@@ -72,13 +74,28 @@ body, html {
   padding: 150px;
 }
 
+.section img {
+  width: 100%;
+}
+
 .green-div {
   height: 50vh;
   background-color: #7bb869;
 }
 
 .white-div {
-  height: 50vh;
+  position: relative;
+  height: 100vh;
   background-color: #d8d8d8;
+}
+
+.white-div h1 {
+  font-size: 20vh;
+  position: absolute;
+  bottom: 0vh;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+  color: #7bb869;
 }
 /*# sourceMappingURL=style.css.map */
