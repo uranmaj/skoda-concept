@@ -27,11 +27,30 @@ $(function() {
     //.addIndicators()
     .addTo(controller)
 
-    
+
+
+    new ScrollMagic.Scene({
+        triggerElement: "#short-desctription",
+        triggerHook: 0.8,
+        offset: 200
+    }).setTween(new gsap.from("#short-description p", {opacity: 0, y:100, duration: 1}))
+    .addTo(controller)
+    //.addIndicators()
+
+    new ScrollMagic.Scene({
+        triggerElement: ".octavia-side",
+        triggerHook: 0.8,
+        offset: 200
+    }).setTween(new gsap.from("#live-like-you", {opacity: 0, y:100, duration: 3}))
+    .addTo(controller)
+    //.addIndicators()
+
+
     var scrollPreview = gsap.timeline()
         .from("#reveal1", {opacity: 0, y:100, duration: 1})
         .from("#reveal2", {opacity: 0, y:100, duration: 1})
         .from("#reveal3", {opacity: 0, y:100, duration: 1})
+        .from("#reveal4", {opacity: 0, y:100, duration: 1})
 
 
     var octaviaPewview = new ScrollMagic.Scene({
@@ -43,7 +62,7 @@ $(function() {
     })
     .setTween(scrollPreview)
     .setPin('.octavia-side')
-    .addIndicators()
+    //.addIndicators()
     .addTo(controller);
 
 

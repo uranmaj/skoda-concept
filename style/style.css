@@ -66,17 +66,22 @@ body, html {
   line-height: 10vh;
   font-weight: 900;
   text-align: right;
+  color: #d8d8d8;
 }
 
 .section {
-  background-color: black;
+  background-color: #d8d8d8;
   height: auto;
 }
 
 .section p {
   margin: 0;
-  color: #d8d8d8;
+  color: #7bb869;
   padding: 150px;
+  padding-left: 250px;
+  padding-right: 250px;
+  font-size: 18px;
+  text-align: center;
 }
 
 .section img {
@@ -84,13 +89,18 @@ body, html {
 }
 
 .green-div {
-  height: 50vh;
+  height: 150vh;
   background-color: #7bb869;
+}
+
+.seperator {
+  height: 15vh;
+  background-color: #d8d8d8;
 }
 
 .white-div {
   position: relative;
-  height: 100vh;
+  height: 150vh;
   background-color: #d8d8d8;
 }
 
@@ -104,10 +114,32 @@ body, html {
   color: #7bb869;
 }
 
+.white-div img {
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.white-div h2 {
+  font-size: 6vh;
+  text-align: center;
+}
+
+.white-div p {
+  padding-left: 15%;
+  padding-right: 15%;
+  text-align: center;
+  margin-bottom: 53px;
+}
+
 .octavia-side {
   background-image: url(../images/octaviaSide2.jpg);
   height: 100vh;
   background-size: cover;
   background-position: bottom;
+}
+
+.octavia-side h1 {
+  color: #d8d8d8;
 }
 /*# sourceMappingURL=style.css.map */
