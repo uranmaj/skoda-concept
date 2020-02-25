@@ -3,9 +3,12 @@
 
 body, html {
     height: 100%;
+    font-family: $secondary-font-fam;
+}
+
+* {
     margin: 0;
     padding: 0;
-    font-family: $secondary-font-fam;
 }
 
 .logo {
@@ -24,7 +27,7 @@ body, html {
     padding-left: 1.5vw;
     padding-top: 17vh;
     display: flex;
-    text-align: right;
+    
     flex-direction: column;
     z-index: 11;
     a {
@@ -33,17 +36,98 @@ body, html {
         margin-bottom: 2vh;
         font-size: 15px;
         font-weight: 500;
-        color: $skoda-white;
+        color: black;
+         font-weight: 800;
         font-family: $secondary-font-fam;
         transition: all 0.3s ease-in-out;
       }
       
       a:hover {
-        transform: translateX(10px) ;
+        //transform: translateX(10px) ;
        // padding-top:10px;
         padding-bottom: 10px;
       } 
 }
+
+.landing {
+    position: relative;
+    height: 100vh;
+    background: linear-gradient($skoda-white 0%, $skoda-white 58%, $skoda-color 58%);
+
+  
+
+    img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 70%;
+        margin-left: -35%;
+        margin-top: -22%;
+    }
+
+    h1 {
+        font-size: 20vh;
+        position: absolute;
+        bottom: 55%;
+        margin:0;
+        text-align: center;
+        width: 100%;
+        color: $skoda-color;
+    }
+
+    h2 {
+        position: absolute;
+        font-size: 6vh;
+        text-align: center;
+        bottom: 3%;
+        margin:0;
+        width: 100%;
+    }
+}
+
+
+.description {
+    height: 100vh;
+    background-color: $skoda-color;
+    position: relative;
+    overflow: hidden;
+
+    img {
+        position: absolute;
+        width: 700px;
+        bottom: 0;
+        left: 50%;
+        margin-left: -350px;
+    }
+
+    h3 {
+        width: 70%;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+    }
+
+    h2 {
+        position: absolute;
+        font-size: 10vh;
+        text-align: center;
+        top: 30%;
+        margin:0;
+        width: 100%;
+    }
+
+    h1 {
+        color: $skoda-white;
+        position: absolute;
+        font-size: 25vh;
+        text-align: center;
+        top: 30%;
+        margin:0;
+        width: 100%;  
+    }
+}
+
+
 
 .landing-div {
 
@@ -64,6 +148,7 @@ body, html {
         text-align: right;
         color: $skoda-white;
     }
+
 
 }
 

@@ -1,8 +1,11 @@
 body, html {
   height: 100%;
+  font-family: "Montserrat", sans-serif;
+}
+
+* {
   margin: 0;
   padding: 0;
-  font-family: "Montserrat", sans-serif;
 }
 
 .logo {
@@ -23,7 +26,6 @@ body, html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  text-align: right;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -37,16 +39,91 @@ body, html {
   margin-bottom: 2vh;
   font-size: 15px;
   font-weight: 500;
-  color: #d8d8d8;
+  color: black;
+  font-weight: 800;
   font-family: "Montserrat", sans-serif;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
 .navbar a:hover {
-  -webkit-transform: translateX(10px);
-          transform: translateX(10px);
   padding-bottom: 10px;
+}
+
+.landing {
+  position: relative;
+  height: 100vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(#d8d8d8), color-stop(58%, #d8d8d8), color-stop(58%, #7bb869));
+  background: linear-gradient(#d8d8d8 0%, #d8d8d8 58%, #7bb869 58%);
+}
+
+.landing img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 70%;
+  margin-left: -35%;
+  margin-top: -22%;
+}
+
+.landing h1 {
+  font-size: 20vh;
+  position: absolute;
+  bottom: 55%;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+  color: #7bb869;
+}
+
+.landing h2 {
+  position: absolute;
+  font-size: 6vh;
+  text-align: center;
+  bottom: 3%;
+  margin: 0;
+  width: 100%;
+}
+
+.description {
+  height: 100vh;
+  background-color: #7bb869;
+  position: relative;
+  overflow: hidden;
+}
+
+.description img {
+  position: absolute;
+  width: 700px;
+  bottom: 0;
+  left: 50%;
+  margin-left: -350px;
+}
+
+.description h3 {
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.description h2 {
+  position: absolute;
+  font-size: 10vh;
+  text-align: center;
+  top: 30%;
+  margin: 0;
+  width: 100%;
+}
+
+.description h1 {
+  color: #d8d8d8;
+  position: absolute;
+  font-size: 25vh;
+  text-align: center;
+  top: 30%;
+  margin: 0;
+  width: 100%;
 }
 
 .landing-div {

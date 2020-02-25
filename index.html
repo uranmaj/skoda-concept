@@ -17,13 +17,13 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.1.1/gsap.min.js" integrity="sha256-cyEXrJKjO3YNkpCjPxVBdi7pRJ3EF+okm1oN9Qc4rRY=" crossorigin="anonymous"></script>
         
         <link rel="stylesheet" href="style\style.css">
-        <script src="function\animation.js"></script>
+        <!--<script src="function\animation.js"></script>-->
+        <script src="js\app.js"></script>
     </head>
 
     <body>
         
         <div class="navbar">
-            
             <a href="#home">HOME</a>
             <a href="#models">MODELS</a>
             <a href="#services">SERVICES</a>
@@ -31,6 +31,32 @@
         </div>
 
         <img class="logo" src="images/logoSmall.png" alt="Logo">
+
+        
+        
+        <div class="landing">
+            <img src="images\octaviaSnow.jpg">
+            <h1>SIMPLY CLEVER</h1>
+            <h2>THE ALL-NEW ŠKODA OCTAVIA 2020</h2>
+        </div>
+
+        <div id="trigger" class="description">
+            <h3 id="short-description">
+                Presenting the all-new OCTAVIA, a roomy model that, because it lives like you, is as versatile in business situations as it is practical within the family. With its compact dimensions, state-of-the-art driver-assistance systems and exceptional comfort, it is perfect for city traffic and long hauls alike.
+            </h3>
+            <h2 id="property-1">Up to 19 inch wheels</h2>
+            <h2 id="property-2">Up to 1700 liters of space</h2>
+            <h2 id="property-3">Up to 200 horses</h2>
+            <h2 id="property-4">With optional 4x4</h2>
+            <h1 id="live-like-you">LIVE LIKE YOU</h1>
+            <img id="blue-octavia" src="images\Skoda-Octavia-2020.png" alt="">
+        </div>
+
+        
+        <!--start of display none------------------------------------------------------------------------------------->
+        <div style="display: none;">
+
+        
 
         <div class="landing-div">
             <h1>THE ALL-NEW <br>ŠKODA OCTAVIA</h1>
@@ -75,5 +101,13 @@
         <div id="zadnjiSection" class="section" style="height: 100vh;">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus semper tellus vitae eleifend aliquet. Vestibulum in egestas est. Suspendisse sed erat dolor. Vivamus eu cursus lacus, elementum auctor risus. Vestibulum dictum justo eget mi cursus, eget blandit mauris blandit. Ut commodo ut orci quis accumsan. Aliquam vel vehicula tortor. Donec nunc arcu, accumsan vitae posuere eget, ullamcorper eu sapien. Duis sollicitudin lorem nulla, at rhoncus magna posuere id. Pellentesque nec est accumsan, fringilla lacus sit amet, interdum leo. Pellentesque pharetra diam eget consequat venenatis. Integer ligula erat, efficitur eu consectetur in, varius in leo. Cras tincidunt lacus nisi, semper efficitur elit dapibus quis. Phasellus finibus laoreet ex, at bibendum leo efficitur et. Phasellus pharetra faucibus mauris. Vestibulum egestas egestas nulla, eu facilisis ex.</p>
         </div>
+
+        <div style="position:relative;height: 100vh;">
+            <img src="images\Skoda-Octavia-2020.png" alt="" style="position: absolute; width: 800px;bottom:0;">
+        </div>
+
+    </div> <!--end of display none-->
+
+
     </body>
 </html>
