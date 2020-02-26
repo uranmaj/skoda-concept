@@ -16,7 +16,8 @@ $(function () {
         .from("#property-4", {opacity: 0, y:-100, duration: 1})
         .to("#property-4", {opacity: 0, y:100, duration: 0.4})
         .from("#live-like-you", {opacity: 0, y:-100, duration: 1.5})
-        .to("#blue-octavia", { x:1500, duration: 1});
+        .to("#octavia-button", {opacity: 1, duration: 0})
+        .to("#blue-octavia", { x:1500, duration: 2});
     
     var octaviaArrives = new ScrollMagic.Scene({
         triggerElement: '#trigger',
@@ -24,7 +25,7 @@ $(function () {
         triggerHook: 0.45
     })
     .setTween(octaviaArrivesTween)
-    .addIndicators()
+    //.addIndicators()
     .addTo(controller);
 
     var octaviaPewview = new ScrollMagic.Scene({
