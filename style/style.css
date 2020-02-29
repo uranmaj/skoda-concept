@@ -239,4 +239,54 @@ body, html {
 .octavia-side h1 {
   color: #d8d8d8;
 }
+
+.models {
+  height: 100vh;
+  background-image: url(../images/scala.jpg);
+  background-size: cover;
+  width: 90%;
+  float: right;
+}
+
+.models button {
+  z-index: 101;
+  font-size: 18px;
+  font-weight: 800;
+  color: #000;
+  border: 4px solid #000;
+  background-color: transparent;
+  position: absolute;
+  bottom: 22px;
+  left: 16px;
+  width: 160px;
+}
+
+.models button:hover {
+  color: #fff;
+  border: 4px solid #fff;
+}
+
+.side-bar2 {
+  position: absolute;
+  left: -10%;
+  width: 100%;
+  height: 100vh;
+  background-color: #7bb869;
+  -webkit-transform: skew(20deg);
+          transform: skew(20deg);
+  background: -webkit-gradient(linear, left top, right top, from(#7bb869), color-stop(30%, #7bb869), color-stop(30%, #d8d8d8));
+  background: linear-gradient(to right, #7bb869 0%, #7bb869 30%, #d8d8d8 30%);
+}
+
+.side-bar {
+  position: absolute;
+  left: -10%;
+  width: 100%;
+  height: 100vh;
+  background-color: #7bb869;
+  -webkit-transform: skew(20deg);
+          transform: skew(20deg);
+  background: -webkit-gradient(linear, left top, right top, from(#7bb869), color-stop(30%, #7bb869), color-stop(30%, transparent));
+  background: linear-gradient(to right, #7bb869 0%, #7bb869 30%, transparent 30%);
+}
 /*# sourceMappingURL=style.css.map */
