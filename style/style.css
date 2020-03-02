@@ -42,12 +42,12 @@ body, html {
   color: black;
   font-weight: 800;
   font-family: "Montserrat", sans-serif;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .navbar a:hover {
-  padding-bottom: 10px;
+  color: #d8d8d8;
 }
 
 .landing {
@@ -246,6 +246,24 @@ body, html {
   background-size: cover;
   width: 90%;
   float: right;
+}
+
+.models .title-scala {
+  position: absolute;
+  bottom: 1%;
+  right: 1%;
+}
+
+.models h1 {
+  color: #d8d8d8;
+  font-size: 13vh;
+  line-height: 10vh;
+}
+
+.models h3 {
+  color: #d8d8d8;
+  font-size: 4vh;
+  font-weight: 500;
 }
 
 .models button {

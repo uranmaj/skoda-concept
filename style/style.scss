@@ -39,15 +39,17 @@ body, html {
         color: black;
          font-weight: 800;
         font-family: $secondary-font-fam;
-        transition: all 0.3s ease-in-out;
+        transition: all 0.2s ease-in-out;
       }
       
       a:hover {
         //transform: translateX(10px) ;
        // padding-top:10px;
-        padding-bottom: 10px;
+        //padding-bottom: 10px;
+        color: $skoda-white;
       } 
 }
+
 
 .landing {
     position: relative;
@@ -255,6 +257,26 @@ body, html {
     background-size: cover;
     width: 90%;
     float: right;
+
+    .title-scala {
+        position: absolute;
+        bottom: 1%;
+        right: 1%;
+    }
+
+    h1 {
+        color: $skoda-white;
+        font-size: 13vh;
+        line-height: 10vh;
+    }
+
+    h3 {
+        color: $skoda-white;
+        font-size: 4vh;
+        font-weight: 500;
+    }
+
+
 
     button {
         z-index: 101;
