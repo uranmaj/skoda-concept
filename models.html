@@ -18,31 +18,31 @@
         
         <link rel="stylesheet" href="style\style.css">
         <link rel="stylesheet" href="style\all.css"> 
-        
+        <script src="js\models.js"></script>
     </head>
 
     <body>
         
         <div class="navbar">
-            <a href="">CITIGO</a>
-            <a href="">FABIA</a>
-            <a href="">SCALA</a>
-            <a href="">OCTAVIA</a>
-            <a href="">SUPERB</a>
-            <a href="">KAMIQ</a>
-            <a href="">KAROQ</a>
-            <a href="">KODIAQ</a>
+            <a onclick="citigo()">CITIGO</a>
+            <a onclick="fabia()">FABIA</a>
+            <a onclick="scala()">SCALA</a>
+            <a onclick="octavia()">OCTAVIA</a>
+            <a onclick="superb()">SUPERB</a>
+            <a onclick="kamiq()">KAMIQ</a>
+            <a onclick="karoq()">KAROQ</a>
+            <a onclick="kodiaq()">KODIAQ</a>
         </div>
 
         <img class="logo" src="images/logoSmall.png" alt="Logo">
 
-        <div class="models">
-            <div class="side-bar"></div>
+        <div class="side-bar"></div>
+        <div id="models" class="models">
             <a href="index.html"><button><i class="fas fa-chevron-left"></i> BACK HOME</button></a>
             <!--TO DO: instead of regular nav bar, i want a list of all models under the logo-->
             <div class="title-scala">
-                <h1>ŠKODA SCALA</h1>
-                <h3>A sleek, compact, family car with plenty of space</h3>
+                <h1 id="car-name">ŠKODA FABIA</h1>
+                <h3 id="car-description">A fresh, urban small car</h3>
             </div>
         </div>
 
