@@ -10,7 +10,7 @@ $(function () {
 function scala() {
     sidebarAnimation();
 
-    document.querySelector('.models').style.backgroundImage = "url(/images/scala.jpg)";
+    document.querySelector('.models').style.backgroundImage = "url(images/scala.jpg)";
     document.getElementById("car-name").textContent = "ŠKODA SCALA";
     document.getElementById("car-description").textContent = "A sleek, compact, family car with plenty of space";
 }
@@ -18,7 +18,7 @@ function scala() {
 function fabia() {
     sidebarAnimation();
 
-    document.querySelector('.models').style.backgroundImage = "url(/images/fabia.jpg)";
+    document.querySelector('.models').style.backgroundImage = "url(images/fabia.jpg)";
     document.getElementById("car-name").textContent = "ŠKODA FABIA";
     document.getElementById("car-description").textContent = "A fresh, urban small car";
 }
@@ -26,7 +26,7 @@ function fabia() {
 function citigo() {
     sidebarAnimation();
     
-    document.querySelector('.models').style.backgroundImage = "url(/images/citygoiv.jpg)";
+    document.querySelector('.models').style.backgroundImage = "url(images/citygoiv.jpg)";
     document.getElementById("car-name").textContent = "ŠKODA CITIGO iV";
     document.getElementById("car-description").textContent = "A clever and comfortable all-electric urban car";
 }

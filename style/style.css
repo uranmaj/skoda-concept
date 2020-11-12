@@ -140,7 +140,7 @@ body, html {
 .description h1 {
   color: #d8d8d8;
   position: absolute;
-  font-size: 25vh;
+  font-size: 22vh;
   text-align: center;
   top: 30%;
   margin: 0;
@@ -333,7 +333,7 @@ body, html {
     position: absolute;
     font-size: 4vh;
     text-align: center;
-    bottom: 3%;
+    bottom: 5%;
     margin: 0;
     width: 100%;
   }
@@ -400,6 +400,19 @@ body, html {
     top: 0%;
     margin: 0;
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 1450px) {
+  .landing h1 {
+    font-size: 17vh;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    line-height: 18vh;
+  }
+  .description h1 {
+    font-size: 17vh;
   }
 }
 /*# sourceMappingURL=style.css.map */
